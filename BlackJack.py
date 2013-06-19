@@ -51,7 +51,7 @@ def getCardValue(card):
 print('Welcome to BlackJack.')
 playerStand = False
 playerBust = False
-#random.shuffle(deck)
+random.shuffle(deck)
 print(deck)
 playerhand=[]
 computerhand=[]
